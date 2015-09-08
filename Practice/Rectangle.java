@@ -13,7 +13,7 @@
   width= 4;
   Area = width * height;
 //Once the variables are declared, print out the area of the rectangle
-  System.out.println("Area of the Rectangle =" + Area);
+  System.out.println("Area of the Rectangle = " + Area);
       }
   }
       
