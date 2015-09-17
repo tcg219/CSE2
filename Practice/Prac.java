@@ -7,16 +7,21 @@
   public class Prac {
       public static void main(String[] args) {
           
-          System.out.println("Goodmoring me, are you having a good morning?");
-          System.out.println("Y or N");
           Scanner scan = new Scanner(System.in);
-          char input = scan.nextchar();
+          System.out.println("Goodmoring me, are you having a good morning?");
+          System.out.print("Yes or No: ");
+          
+          String yesNo = scan.nextString();
             
-            if (input = 'Y') {
-                System.out.println("Glad you are havaing a good morning! Perhaps you should grab a nice hot coffee and enjoy the day!");
-            }
-            else if (input = 'N') {
-                System.out.println("I'm sorry to hear that. Perhaps you shoudl get some coffee?");
-            }   
+           switch (yesNo) {
+             case Yes:
+               System.out.println("Great! Perhaps you should grab a cup of coffee!");
+               break;
+             case No:
+               System.out.prinln("That's too bad. Perhaps you should grab a cup of coffee?");
+               break;
+             default:
+               System.out.println("That's not a valid input. Perhapst you should grab a cup of coffee.");
+           }
       }
   }
