@@ -9,14 +9,15 @@
   public class Quiz {
       public static void main(String[] args) {
           
-          Scanner scan = new Scanner(System.in);
-          System.out.print("Enter your first number: ");
-          double one = scan.nextDouble();
-          System.out.print("Enter your second number: ");
-          double two = scan.nextDouble();
-          System.out.print("Enter your third number: ");
-          double three = scan.nextDouble();
-          double average = (one + two + three) / 3;
-          System.out.println("The average of your three numbers is " + average + ".");
+          Scanner in = new Scanner (System.in);
+          
+          System.out.print("What is your monthly rent cost?");
+          
+          int rent = in.nextInt();
+            
+            if (600 > rent || rent > 1200) {
+              
+              System.out.println("Unusual rent you have there.");
+            }
       }
   }
