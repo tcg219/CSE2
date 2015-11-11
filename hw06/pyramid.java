@@ -1,7 +1,7 @@
 /////////////////////////////////////////////////////////////////////////////////////////
 // Trent Gray
 // CSE2
-// 9/2/15
+// 10/2/15
 
 // The purpose of this program is to have the user imput a number which represents the
 // size of a pyramid that they want using nested loops.

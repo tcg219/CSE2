@@ -65,5 +65,36 @@
             System.out.println("You know what tastes good with scones?");
             System.out.println("COFFEE!!!");
           }
+          
+          
+          
+          while (true) {
+            
+            System.out.print("Isn't coffee the greatest drink in the world? Type yes or no: ");
+          
+          String Yes = scan.next();
+          
+          String ok = yes;
+          
+          String mocha = no;
+            
+            if (Yes.equals(ok)) {
+              
+              System.out.println("Great! Sounds like you have great taste!");
+              
+              break;
+            }
+            
+            else if (Yes.equals(mocha)) {
+            
+            System.out.println("What was that?");
+            }
+          
+          else{
+            
+            System.out.println("I'm sorry, I don't understand.");
+            
+          }
+          }
       }
   }
